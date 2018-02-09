@@ -1,0 +1,19 @@
+{
+    "name": "slowcheetah/tm-bot-creator",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sergey Nechaev",
+            "email": "slow_cheetah@inbox.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "slowcheetah\\tmbotcreator\\": "src"
+        }
+    },
+    "require": {
+        "danog/madelineproto": "dev-master"
+    }
+}
